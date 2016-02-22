@@ -7,14 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D23A4781BE913E800BAF3EF /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D23A4771BE913E800BAF3EF /* Engine.swift */; };
+		4D3131CB1C6B90AE002C30A8 /* CharacterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131CA1C6B90AE002C30A8 /* CharacterTests.swift */; };
+		4D3131CD1C6B91FD002C30A8 /* AttributeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131CC1C6B91FD002C30A8 /* AttributeTests.swift */; };
+		4D3131D11C6B9272002C30A8 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131D01C6B9272002C30A8 /* Character.swift */; };
+		4D3131D31C6B92D6002C30A8 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131D21C6B92D6002C30A8 /* Class.swift */; };
+		4D3131D41C6B92D6002C30A8 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131D21C6B92D6002C30A8 /* Class.swift */; };
+		4D3131D51C6B92D9002C30A8 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131D01C6B9272002C30A8 /* Character.swift */; };
+		4D3131D71C6B950F002C30A8 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131D61C6B950F002C30A8 /* Attribute.swift */; };
+		4D3131D81C6B950F002C30A8 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131D61C6B950F002C30A8 /* Attribute.swift */; };
+		4D3131DA1C6B951F002C30A8 /* AttributeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131D91C6B951F002C30A8 /* AttributeModifier.swift */; };
+		4D3131DB1C6B951F002C30A8 /* AttributeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131D91C6B951F002C30A8 /* AttributeModifier.swift */; };
+		4D3131DD1C6B97AA002C30A8 /* AttributeModifierSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131DC1C6B97AA002C30A8 /* AttributeModifierSource.swift */; };
+		4D3131DE1C6B97AA002C30A8 /* AttributeModifierSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131DC1C6B97AA002C30A8 /* AttributeModifierSource.swift */; };
+		4D3131E11C6B9E4C002C30A8 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131E01C6B9E4C002C30A8 /* ArrayExtensions.swift */; };
+		4D3131E21C6B9E4C002C30A8 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131E01C6B9E4C002C30A8 /* ArrayExtensions.swift */; };
+		4D3131E51C6BA83E002C30A8 /* Synced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131E41C6BA83E002C30A8 /* Synced.swift */; };
+		4D3131E61C6BA83E002C30A8 /* Synced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131E41C6BA83E002C30A8 /* Synced.swift */; };
+		4D3131E81C6BACB1002C30A8 /* AttributeModifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3131E71C6BACB1002C30A8 /* AttributeModifierTests.swift */; };
+		4D8757B81BD9559A00FD66E4 /* BattleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8757B71BD9559A00FD66E4 /* BattleState.swift */; };
+		4D9442AE1BB351A9002ABF76 /* Inconsolata-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9442AC1BB351A9002ABF76 /* Inconsolata-Bold.ttf */; };
+		4D9442AF1BB351A9002ABF76 /* Inconsolata-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9442AD1BB351A9002ABF76 /* Inconsolata-Regular.ttf */; };
+		4D9442BC1BB351C3002ABF76 /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9442B01BB351C3002ABF76 /* SourceSansPro-Black.ttf */; };
+		4D9442BD1BB351C3002ABF76 /* SourceSansPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9442B11BB351C3002ABF76 /* SourceSansPro-BlackItalic.ttf */; };
+		4D9442BE1BB351C3002ABF76 /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9442B21BB351C3002ABF76 /* SourceSansPro-Bold.ttf */; };
+		4D9442BF1BB351C3002ABF76 /* SourceSansPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9442B31BB351C3002ABF76 /* SourceSansPro-BoldItalic.ttf */; };
+		4D9442C01BB351C3002ABF76 /* SourceSansPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9442B41BB351C3002ABF76 /* SourceSansPro-ExtraLight.ttf */; };
+		4D9442C11BB351C3002ABF76 /* SourceSansPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9442B51BB351C3002ABF76 /* SourceSansPro-ExtraLightItalic.ttf */; };
+		4D9442C21BB351C3002ABF76 /* SourceSansPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9442B61BB351C3002ABF76 /* SourceSansPro-Italic.ttf */; };
+		4D9442C31BB351C3002ABF76 /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9442B71BB351C3002ABF76 /* SourceSansPro-Light.ttf */; };
+		4D9442C41BB351C3002ABF76 /* SourceSansPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9442B81BB351C3002ABF76 /* SourceSansPro-LightItalic.ttf */; };
+		4D9442C51BB351C3002ABF76 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9442B91BB351C3002ABF76 /* SourceSansPro-Regular.ttf */; };
+		4D9442C61BB351C3002ABF76 /* SourceSansPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9442BA1BB351C3002ABF76 /* SourceSansPro-Semibold.ttf */; };
+		4D9442C71BB351C3002ABF76 /* SourceSansPro-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9442BB1BB351C3002ABF76 /* SourceSansPro-SemiboldItalic.ttf */; };
 		4D9917BC1BB1959900FA12A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9917BB1BB1959900FA12A7 /* AppDelegate.swift */; };
-		4D9917BE1BB1959900FA12A7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4D9917BD1BB1959900FA12A7 /* GameScene.sks */; };
-		4D9917C01BB1959900FA12A7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9917BF1BB1959900FA12A7 /* GameScene.swift */; };
 		4D9917C21BB1959900FA12A7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9917C11BB1959900FA12A7 /* GameViewController.swift */; };
 		4D9917C51BB1959900FA12A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9917C31BB1959900FA12A7 /* Main.storyboard */; };
 		4D9917C71BB1959900FA12A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9917C61BB1959900FA12A7 /* Images.xcassets */; };
 		4D9917CA1BB1959900FA12A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D9917C81BB1959900FA12A7 /* LaunchScreen.xib */; };
 		4D9917D61BB1959900FA12A7 /* SimpleRPGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9917D51BB1959900FA12A7 /* SimpleRPGTests.swift */; };
+		4D9917E31BB1966800FA12A7 /* StateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9917E21BB1966800FA12A7 /* StateMachine.swift */; };
+		4D9917E51BB1977500FA12A7 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9917E41BB1977500FA12A7 /* State.swift */; };
+		4D9917E71BB198D500FA12A7 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9917E61BB198D500FA12A7 /* Logger.swift */; };
+		4D9917F11BB1C8C300FA12A7 /* MainMenuState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9917F01BB1C8C300FA12A7 /* MainMenuState.swift */; };
+		4D9917F31BB2F31300FA12A7 /* ConfigurationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9917F21BB2F31300FA12A7 /* ConfigurationOptions.swift */; };
+		4D9917F51BB2F73500FA12A7 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9917F41BB2F73500FA12A7 /* MainMenuScene.swift */; };
+		4D9917F71BB2F78D00FA12A7 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4D9917F61BB2F78D00FA12A7 /* MainMenuScene.sks */; };
+		4DC9B7631C726E3500BA83AD /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9B7621C726E3500BA83AD /* Equipment.swift */; };
+		4DC9B7641C726E3500BA83AD /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9B7621C726E3500BA83AD /* Equipment.swift */; };
+		4DC9B7661C7278A500BA83AD /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9B7651C7278A500BA83AD /* DictionaryExtensions.swift */; };
+		4DC9B7671C7278A500BA83AD /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9B7651C7278A500BA83AD /* DictionaryExtensions.swift */; };
+		4DC9B7691C727CE100BA83AD /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9B7681C727CE100BA83AD /* Inventory.swift */; };
+		4DC9B76A1C727CE100BA83AD /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9B7681C727CE100BA83AD /* Inventory.swift */; };
+		4DC9B76C1C727D1300BA83AD /* InventoryDisplayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9B76B1C727D1300BA83AD /* InventoryDisplayItem.swift */; };
+		4DC9B76D1C727D1300BA83AD /* InventoryDisplayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9B76B1C727D1300BA83AD /* InventoryDisplayItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,11 +74,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D23A4771BE913E800BAF3EF /* Engine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Engine.swift; path = Engine/Engine.swift; sourceTree = "<group>"; };
+		4D3131CA1C6B90AE002C30A8 /* CharacterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterTests.swift; sourceTree = "<group>"; };
+		4D3131CC1C6B91FD002C30A8 /* AttributeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeTests.swift; sourceTree = "<group>"; };
+		4D3131D01C6B9272002C30A8 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Character.swift; path = Game/Character/Character.swift; sourceTree = "<group>"; };
+		4D3131D21C6B92D6002C30A8 /* Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Class.swift; path = Game/Character/Class.swift; sourceTree = "<group>"; };
+		4D3131D61C6B950F002C30A8 /* Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = Game/Character/Attribute.swift; sourceTree = "<group>"; };
+		4D3131D91C6B951F002C30A8 /* AttributeModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttributeModifier.swift; path = Game/Character/AttributeModifier.swift; sourceTree = "<group>"; };
+		4D3131DC1C6B97AA002C30A8 /* AttributeModifierSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttributeModifierSource.swift; path = Game/Character/AttributeModifierSource.swift; sourceTree = "<group>"; };
+		4D3131E01C6B9E4C002C30A8 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayExtensions.swift; path = Extensions/ArrayExtensions.swift; sourceTree = "<group>"; };
+		4D3131E41C6BA83E002C30A8 /* Synced.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Synced.swift; path = Utility/Synced.swift; sourceTree = "<group>"; };
+		4D3131E71C6BACB1002C30A8 /* AttributeModifierTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeModifierTests.swift; sourceTree = "<group>"; };
+		4D8757B71BD9559A00FD66E4 /* BattleState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BattleState.swift; path = Game/States/BattleState.swift; sourceTree = "<group>"; };
+		4D9442AC1BB351A9002ABF76 /* Inconsolata-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inconsolata-Bold.ttf"; path = "Assets/Inconsolata-Bold.ttf"; sourceTree = "<group>"; };
+		4D9442AD1BB351A9002ABF76 /* Inconsolata-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inconsolata-Regular.ttf"; path = "Assets/Inconsolata-Regular.ttf"; sourceTree = "<group>"; };
+		4D9442B01BB351C3002ABF76 /* SourceSansPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Black.ttf"; path = "Assets/SourceSansPro-Black.ttf"; sourceTree = "<group>"; };
+		4D9442B11BB351C3002ABF76 /* SourceSansPro-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-BlackItalic.ttf"; path = "Assets/SourceSansPro-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4D9442B21BB351C3002ABF76 /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Bold.ttf"; path = "Assets/SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		4D9442B31BB351C3002ABF76 /* SourceSansPro-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-BoldItalic.ttf"; path = "Assets/SourceSansPro-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4D9442B41BB351C3002ABF76 /* SourceSansPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-ExtraLight.ttf"; path = "Assets/SourceSansPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		4D9442B51BB351C3002ABF76 /* SourceSansPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-ExtraLightItalic.ttf"; path = "Assets/SourceSansPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		4D9442B61BB351C3002ABF76 /* SourceSansPro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Italic.ttf"; path = "Assets/SourceSansPro-Italic.ttf"; sourceTree = "<group>"; };
+		4D9442B71BB351C3002ABF76 /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Light.ttf"; path = "Assets/SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		4D9442B81BB351C3002ABF76 /* SourceSansPro-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-LightItalic.ttf"; path = "Assets/SourceSansPro-LightItalic.ttf"; sourceTree = "<group>"; };
+		4D9442B91BB351C3002ABF76 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Regular.ttf"; path = "Assets/SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		4D9442BA1BB351C3002ABF76 /* SourceSansPro-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Semibold.ttf"; path = "Assets/SourceSansPro-Semibold.ttf"; sourceTree = "<group>"; };
+		4D9442BB1BB351C3002ABF76 /* SourceSansPro-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-SemiboldItalic.ttf"; path = "Assets/SourceSansPro-SemiboldItalic.ttf"; sourceTree = "<group>"; };
 		4D9917B61BB1959900FA12A7 /* SimpleRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9917BA1BB1959900FA12A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9917BB1BB1959900FA12A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D9917BD1BB1959900FA12A7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		4D9917BF1BB1959900FA12A7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		4D9917C11BB1959900FA12A7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		4D9917C41BB1959900FA12A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D9917C61BB1959900FA12A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -40,6 +110,17 @@
 		4D9917CF1BB1959900FA12A7 /* SimpleRPGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRPGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9917D41BB1959900FA12A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9917D51BB1959900FA12A7 /* SimpleRPGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRPGTests.swift; sourceTree = "<group>"; };
+		4D9917E21BB1966800FA12A7 /* StateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StateMachine.swift; path = Engine/StateMachine.swift; sourceTree = "<group>"; };
+		4D9917E41BB1977500FA12A7 /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = State.swift; path = Engine/State.swift; sourceTree = "<group>"; };
+		4D9917E61BB198D500FA12A7 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Engine/Logger.swift; sourceTree = "<group>"; };
+		4D9917F01BB1C8C300FA12A7 /* MainMenuState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMenuState.swift; path = Game/States/MainMenuState.swift; sourceTree = "<group>"; };
+		4D9917F21BB2F31300FA12A7 /* ConfigurationOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfigurationOptions.swift; path = Game/ConfigurationOptions.swift; sourceTree = "<group>"; };
+		4D9917F41BB2F73500FA12A7 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		4D9917F61BB2F78D00FA12A7 /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
+		4DC9B7621C726E3500BA83AD /* Equipment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Equipment.swift; path = Game/Items/Equipment.swift; sourceTree = "<group>"; };
+		4DC9B7651C7278A500BA83AD /* DictionaryExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DictionaryExtensions.swift; path = Extensions/DictionaryExtensions.swift; sourceTree = "<group>"; };
+		4DC9B7681C727CE100BA83AD /* Inventory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Inventory.swift; path = Game/Items/Inventory.swift; sourceTree = "<group>"; };
+		4DC9B76B1C727D1300BA83AD /* InventoryDisplayItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InventoryDisplayItem.swift; path = Game/Items/InventoryDisplayItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +141,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D3131CE1C6B9233002C30A8 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				4D9917F01BB1C8C300FA12A7 /* MainMenuState.swift */,
+				4D8757B71BD9559A00FD66E4 /* BattleState.swift */,
+			);
+			name = States;
+			sourceTree = "<group>";
+		};
+		4D3131CF1C6B9249002C30A8 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				4D3131D01C6B9272002C30A8 /* Character.swift */,
+				4D3131D21C6B92D6002C30A8 /* Class.swift */,
+				4D3131D61C6B950F002C30A8 /* Attribute.swift */,
+				4D3131D91C6B951F002C30A8 /* AttributeModifier.swift */,
+				4D3131DC1C6B97AA002C30A8 /* AttributeModifierSource.swift */,
+			);
+			name = Character;
+			sourceTree = "<group>";
+		};
+		4D3131DF1C6B9E35002C30A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D3131E01C6B9E4C002C30A8 /* ArrayExtensions.swift */,
+				4DC9B7651C7278A500BA83AD /* DictionaryExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		4D3131E31C6BA812002C30A8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4D3131E41C6BA83E002C30A8 /* Synced.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		4D9442AB1BB3515F002ABF76 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4D9442B01BB351C3002ABF76 /* SourceSansPro-Black.ttf */,
+				4D9442B11BB351C3002ABF76 /* SourceSansPro-BlackItalic.ttf */,
+				4D9442B21BB351C3002ABF76 /* SourceSansPro-Bold.ttf */,
+				4D9442B31BB351C3002ABF76 /* SourceSansPro-BoldItalic.ttf */,
+				4D9442B41BB351C3002ABF76 /* SourceSansPro-ExtraLight.ttf */,
+				4D9442B51BB351C3002ABF76 /* SourceSansPro-ExtraLightItalic.ttf */,
+				4D9442B61BB351C3002ABF76 /* SourceSansPro-Italic.ttf */,
+				4D9442B71BB351C3002ABF76 /* SourceSansPro-Light.ttf */,
+				4D9442B81BB351C3002ABF76 /* SourceSansPro-LightItalic.ttf */,
+				4D9442B91BB351C3002ABF76 /* SourceSansPro-Regular.ttf */,
+				4D9442BA1BB351C3002ABF76 /* SourceSansPro-Semibold.ttf */,
+				4D9442BB1BB351C3002ABF76 /* SourceSansPro-SemiboldItalic.ttf */,
+				4D9442AC1BB351A9002ABF76 /* Inconsolata-Bold.ttf */,
+				4D9442AD1BB351A9002ABF76 /* Inconsolata-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		4D9917AD1BB1959800FA12A7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +221,13 @@
 		4D9917B81BB1959900FA12A7 /* SimpleRPG */ = {
 			isa = PBXGroup;
 			children = (
+				4D3131E31C6BA812002C30A8 /* Utility */,
+				4D3131DF1C6B9E35002C30A8 /* Extensions */,
+				4D9917E11BB195C000FA12A7 /* UI */,
+				4D9917E01BB195B900FA12A7 /* Game */,
+				4D9917DF1BB195A300FA12A7 /* Engine */,
 				4D9917BB1BB1959900FA12A7 /* AppDelegate.swift */,
-				4D9917BD1BB1959900FA12A7 /* GameScene.sks */,
-				4D9917BF1BB1959900FA12A7 /* GameScene.swift */,
-				4D9917C11BB1959900FA12A7 /* GameViewController.swift */,
-				4D9917C31BB1959900FA12A7 /* Main.storyboard */,
 				4D9917C61BB1959900FA12A7 /* Images.xcassets */,
-				4D9917C81BB1959900FA12A7 /* LaunchScreen.xib */,
 				4D9917B91BB1959900FA12A7 /* Supporting Files */,
 			);
 			path = SimpleRPG;
@@ -96,6 +236,7 @@
 		4D9917B91BB1959900FA12A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D9442AB1BB3515F002ABF76 /* Fonts */,
 				4D9917BA1BB1959900FA12A7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -104,6 +245,9 @@
 		4D9917D21BB1959900FA12A7 /* SimpleRPGTests */ = {
 			isa = PBXGroup;
 			children = (
+				4D3131CC1C6B91FD002C30A8 /* AttributeTests.swift */,
+				4D3131E71C6BACB1002C30A8 /* AttributeModifierTests.swift */,
+				4D3131CA1C6B90AE002C30A8 /* CharacterTests.swift */,
 				4D9917D51BB1959900FA12A7 /* SimpleRPGTests.swift */,
 				4D9917D31BB1959900FA12A7 /* Supporting Files */,
 			);
@@ -116,6 +260,67 @@
 				4D9917D41BB1959900FA12A7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D9917DF1BB195A300FA12A7 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				4D9917E21BB1966800FA12A7 /* StateMachine.swift */,
+				4D9917E61BB198D500FA12A7 /* Logger.swift */,
+				4D9917E41BB1977500FA12A7 /* State.swift */,
+				4D23A4771BE913E800BAF3EF /* Engine.swift */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		4D9917E01BB195B900FA12A7 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				4DC9B7611C726DE300BA83AD /* Items */,
+				4D3131CF1C6B9249002C30A8 /* Character */,
+				4D3131CE1C6B9233002C30A8 /* States */,
+				4D9917F21BB2F31300FA12A7 /* ConfigurationOptions.swift */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		4D9917E11BB195C000FA12A7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4D9917C11BB1959900FA12A7 /* GameViewController.swift */,
+				4D9917F41BB2F73500FA12A7 /* MainMenuScene.swift */,
+				4D9917EF1BB1BF3B00FA12A7 /* Scenes */,
+				4D9917EE1BB1BF2300FA12A7 /* Storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4D9917EE1BB1BF2300FA12A7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4D9917C31BB1959900FA12A7 /* Main.storyboard */,
+				4D9917C81BB1959900FA12A7 /* LaunchScreen.xib */,
+			);
+			name = Storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4D9917EF1BB1BF3B00FA12A7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4D9917F61BB2F78D00FA12A7 /* MainMenuScene.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4DC9B7611C726DE300BA83AD /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				4DC9B7621C726E3500BA83AD /* Equipment.swift */,
+				4DC9B7681C727CE100BA83AD /* Inventory.swift */,
+				4DC9B76B1C727D1300BA83AD /* InventoryDisplayItem.swift */,
+			);
+			name = Items;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +367,9 @@
 		4D9917AE1BB1959800FA12A7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = SnackpackGames;
 				TargetAttributes = {
 					4D9917B51BB1959900FA12A7 = {
@@ -198,10 +405,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9442BD1BB351C3002ABF76 /* SourceSansPro-BlackItalic.ttf in Resources */,
+				4D9442BF1BB351C3002ABF76 /* SourceSansPro-BoldItalic.ttf in Resources */,
 				4D9917CA1BB1959900FA12A7 /* LaunchScreen.xib in Resources */,
+				4D9442BE1BB351C3002ABF76 /* SourceSansPro-Bold.ttf in Resources */,
 				4D9917C71BB1959900FA12A7 /* Images.xcassets in Resources */,
-				4D9917BE1BB1959900FA12A7 /* GameScene.sks in Resources */,
+				4D9442C41BB351C3002ABF76 /* SourceSansPro-LightItalic.ttf in Resources */,
+				4D9442C61BB351C3002ABF76 /* SourceSansPro-Semibold.ttf in Resources */,
+				4D9442C21BB351C3002ABF76 /* SourceSansPro-Italic.ttf in Resources */,
 				4D9917C51BB1959900FA12A7 /* Main.storyboard in Resources */,
+				4D9917F71BB2F78D00FA12A7 /* MainMenuScene.sks in Resources */,
+				4D9442AE1BB351A9002ABF76 /* Inconsolata-Bold.ttf in Resources */,
+				4D9442C31BB351C3002ABF76 /* SourceSansPro-Light.ttf in Resources */,
+				4D9442C71BB351C3002ABF76 /* SourceSansPro-SemiboldItalic.ttf in Resources */,
+				4D9442C51BB351C3002ABF76 /* SourceSansPro-Regular.ttf in Resources */,
+				4D9442C11BB351C3002ABF76 /* SourceSansPro-ExtraLightItalic.ttf in Resources */,
+				4D9442C01BB351C3002ABF76 /* SourceSansPro-ExtraLight.ttf in Resources */,
+				4D9442AF1BB351A9002ABF76 /* Inconsolata-Regular.ttf in Resources */,
+				4D9442BC1BB351C3002ABF76 /* SourceSansPro-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +440,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D9917C01BB1959900FA12A7 /* GameScene.swift in Sources */,
+				4D3131DD1C6B97AA002C30A8 /* AttributeModifierSource.swift in Sources */,
+				4D3131D31C6B92D6002C30A8 /* Class.swift in Sources */,
+				4D9917F31BB2F31300FA12A7 /* ConfigurationOptions.swift in Sources */,
+				4D9917E71BB198D500FA12A7 /* Logger.swift in Sources */,
+				4D3131D11C6B9272002C30A8 /* Character.swift in Sources */,
+				4D8757B81BD9559A00FD66E4 /* BattleState.swift in Sources */,
+				4D9917F51BB2F73500FA12A7 /* MainMenuScene.swift in Sources */,
 				4D9917C21BB1959900FA12A7 /* GameViewController.swift in Sources */,
+				4DC9B7631C726E3500BA83AD /* Equipment.swift in Sources */,
+				4D3131DA1C6B951F002C30A8 /* AttributeModifier.swift in Sources */,
+				4DC9B76C1C727D1300BA83AD /* InventoryDisplayItem.swift in Sources */,
+				4DC9B7661C7278A500BA83AD /* DictionaryExtensions.swift in Sources */,
 				4D9917BC1BB1959900FA12A7 /* AppDelegate.swift in Sources */,
+				4DC9B7691C727CE100BA83AD /* Inventory.swift in Sources */,
+				4D9917E51BB1977500FA12A7 /* State.swift in Sources */,
+				4D3131E51C6BA83E002C30A8 /* Synced.swift in Sources */,
+				4D9917F11BB1C8C300FA12A7 /* MainMenuState.swift in Sources */,
+				4D9917E31BB1966800FA12A7 /* StateMachine.swift in Sources */,
+				4D3131D71C6B950F002C30A8 /* Attribute.swift in Sources */,
+				4D23A4781BE913E800BAF3EF /* Engine.swift in Sources */,
+				4D3131E11C6B9E4C002C30A8 /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +468,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3131DB1C6B951F002C30A8 /* AttributeModifier.swift in Sources */,
+				4DC9B76D1C727D1300BA83AD /* InventoryDisplayItem.swift in Sources */,
+				4D3131D81C6B950F002C30A8 /* Attribute.swift in Sources */,
+				4DC9B76A1C727CE100BA83AD /* Inventory.swift in Sources */,
+				4DC9B7671C7278A500BA83AD /* DictionaryExtensions.swift in Sources */,
+				4DC9B7641C726E3500BA83AD /* Equipment.swift in Sources */,
+				4D3131D41C6B92D6002C30A8 /* Class.swift in Sources */,
+				4D3131E61C6BA83E002C30A8 /* Synced.swift in Sources */,
 				4D9917D61BB1959900FA12A7 /* SimpleRPGTests.swift in Sources */,
+				4D3131DE1C6B97AA002C30A8 /* AttributeModifierSource.swift in Sources */,
+				4D3131E81C6BACB1002C30A8 /* AttributeModifierTests.swift in Sources */,
+				4D3131D51C6B92D9002C30A8 /* Character.swift in Sources */,
+				4D3131CB1C6B90AE002C30A8 /* CharacterTests.swift in Sources */,
+				4D3131E21C6B9E4C002C30A8 /* ArrayExtensions.swift in Sources */,
+				4D3131CD1C6B91FD002C30A8 /* AttributeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +537,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -352,6 +606,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleRPG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.snackpack.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -362,6 +617,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleRPG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.snackpack.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -380,6 +636,7 @@
 				);
 				INFOPLIST_FILE = SimpleRPGTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.snackpack.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleRPG.app/SimpleRPG";
 			};
@@ -395,6 +652,7 @@
 				);
 				INFOPLIST_FILE = SimpleRPGTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.snackpack.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleRPG.app/SimpleRPG";
 			};
@@ -419,6 +677,7 @@
 				4D9917DB1BB1959900FA12A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D9917DC1BB1959900FA12A7 /* Build configuration list for PBXNativeTarget "SimpleRPGTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +686,7 @@
 				4D9917DE1BB1959900FA12A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
